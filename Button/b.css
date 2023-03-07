@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 50px;
+    background-color: rgb(185, 187, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: rgb(100, 150, 200);
+    border-radius: 5px;
+    box-shadow: 0 3px 0 purple, 0 3px 10px rgba(0,0,0,0.6);
+    transition: top 0.5s ease-in-out;
+}
+
+a:active{
+    box-shadow: none;
+    top: 8px;
+}
